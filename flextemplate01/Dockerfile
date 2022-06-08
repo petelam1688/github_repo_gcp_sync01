@@ -1,4 +1,4 @@
-FROM gcr.io/dataflow-templates-base/python3-template-launcher-base:latest
+FROM gcr.io/dataflow-templates-base/python39-template-launcher-base:latest
 
 ENV FLEX_TEMPLATE_PYTHON_REQUIREMENTS_FILE="/template/requirements.txt"
 ENV FLEX_TEMPLATE_PYTHON_PY_FILE="/template/streaming_beam.py"
