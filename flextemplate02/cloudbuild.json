@@ -1,0 +1,15 @@
+{
+    "steps": [
+        {
+            "name": "gcr.io/google.com/cloudsdktool/google-cloud-cli",
+            "entrypoint": "gcloud",
+            "args" : [
+                "source",
+                "repos",
+                "clone",
+                "github_petelam1688_github_repo_gcp_sync01",
+                "."
+            ]
+        }
+    ]
+}
