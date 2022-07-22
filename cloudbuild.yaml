@@ -1,0 +1,5 @@
+steps:
+- name: 'bash'
+  args:
+    - '-c'
+    - | touch /tmp/log.txt; echo `date` >> /tmp/log.txt
