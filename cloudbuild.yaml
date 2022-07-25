@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [build, '-t', 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/image01:tag01', '.']
+
+
+- name: 'ubuntu'
+  args:
+    - 'echo'
+    - "====="
+
+
