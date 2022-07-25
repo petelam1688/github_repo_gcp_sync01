@@ -1,7 +1,7 @@
 steps:
 - name: gcr.io/cloud-builders/docker
-  args: [build, '-t', 'us-west1-docker.pkg.dev/${PROJECT_ID}/master-build/build:latest', '.']
+  args: [build, '-t', 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/build:latest', '.']
 images:
-- 'us-west1-docker.pkg.dev/${PROJECT_ID}'
+- 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/build:latest'
 options:
   logging: CLOUD_LOGGING_ONLY
