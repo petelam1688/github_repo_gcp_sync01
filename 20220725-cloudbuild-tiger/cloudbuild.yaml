@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [build, '-t', 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/image01:tag01', './20220725-cloudbuild-tiger/Dockerfile']
+  args: [build, '-t', 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/image01:tag01', '-f', './20220725-cloudbuild-tiger/Dockerfile']
 images: 
 - 'us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-registry-test-02-docker/image01:tag01'
 timeout: 1200s
